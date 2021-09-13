@@ -1,11 +1,13 @@
+#Basic Info:
+
 Original Author: Markix
 Current Developrer(s): Markix
 Creation Date: 03/30/2021 (DD-MM-YYYY)
 License:
 
-Dependencies:
+#Dependencies:
 
-discord.js
+```discord.js
 
 express
 
@@ -15,10 +17,10 @@ ms
 
 yt-search
 
-ytdl-core
+ytdl-core```
 
 
-About:
+#About:
 
 This bot is supposed to be a universal bot for a Discord server called Social Townhall.
 The bot is very much still in development and more features are being added to it.
