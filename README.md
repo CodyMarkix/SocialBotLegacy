@@ -6,10 +6,15 @@ License:
 Dependencies:
 
 discord.js
+
 express
+
 fs
+
 ms
+
 yt-search
+
 ytdl-core
 
 
