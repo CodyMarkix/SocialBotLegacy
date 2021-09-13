@@ -29,6 +29,7 @@ And then I thought "Where am I gonna use this?" Then I decided that: I have a se
 const Discord = require('discord.js');
 const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION" ]});
 
+
 const fs = require('fs');
  
 client.commands = new Discord.Collection();
@@ -52,5 +53,7 @@ client.on('guildMemberRemove', guildMember =>{
 
 
 
-//Log in the bot 
-client.login("ODA4NzcwODY2NDU5NzA1Mzc0.YCLYkA.Jd0tO4L9F2DEcej3A9b_a5Wft9w");
+//Log in the bot
+require('dotenv').config();
+const token = process.env.TOKEN;
+client.login(token);
