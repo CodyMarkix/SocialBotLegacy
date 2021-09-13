@@ -1,23 +1,35 @@
-//Hello. You've found the source code for my bot. The entire code is written in node.js.
+/*
+----------------------{ Social Bot }----------------------
+Original Author: Markix
+Current Developrer(s): Markix
+Creation Date: 03/30/2021 (DD-MM-YYYY)
+License:
 
-//HTML implementation for uptimerobot
-const express = require('express');
-const app = express();
-const port = 3000;
+Dependencies:
 
-app.get('/', (req, res) => res.send('Hello World!'));
+discord.js
+express
+fs
+ms
+yt-search
+ytdl-core
 
-app.listen(port, () => console.log(`SocialBot listening at http://localhost:${port}`));
+
+About:
+
+This bot is supposed to be a universal bot for a Discord server called Social Townhall.
+The bot is very much still in development and more features are being added to it.
+
+The bot started when one day, I, Markix had an idea of learning to program in Javascript and use Discord.js.
+And then I thought "Where am I gonna use this?" Then I decided that: I have a server so why not make a bot for that server?
+/*/
 
 //Discord bot
 
 const Discord = require('discord.js');
 const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION" ]});
 
-
- 
 const fs = require('fs');
-const Database = require("@replit/database")
  
 client.commands = new Discord.Collection();
 client.events = new Discord.Collection();
@@ -41,4 +53,4 @@ client.on('guildMemberRemove', guildMember =>{
 
 
 //Log in the bot 
-client.login(process.env.TOKEN);
+client.login("ODA4NzcwODY2NDU5NzA1Mzc0.YCLYkA.Jd0tO4L9F2DEcej3A9b_a5Wft9w");
