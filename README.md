@@ -6,7 +6,7 @@ Current Developrer(s): Markix
 
 Creation Date: 03/30/2021 (DD-MM-YYYY)
 
-License:
+License: CC0-1.0 License
 
 # Dependencies:
 
